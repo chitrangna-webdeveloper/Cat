@@ -1,1 +1,109 @@
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #507844;
+    justify-content: center;
+    
+}
+header{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 8px 5px;
+  
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+    margin-right: 100px;
+    overflow: hidden;
+}
+.cont-1{
+    display: inline-block;
+    width: 200px;
+    justify-content: center;
+    background-color: none;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    transition: 0.3s;
+
+}
+
+#tags{
+    text-decoration: none;
+    color: #253022;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: larger;
+}
+li:hover{
+    transform: scale(1.2);
+}
+.info-box{
+    max-width:1200px;
+    margin:auto;
+    padding:90px 25px;
+}
+
+.main-title{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.heading{
+    display:inline-block;
+    padding:10px 22px;
+    background:#E8F1D8;
+    color:#6B8E23;
+    border-radius:50px;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:.5px;
+}
+
+.main-title h1{
+    margin-top:18px;
+    font-size:48px;
+    line-height:1.2;
+    font-weight:800;
+    color:#222;
+}
+
+.main-title p{
+    margin:18px auto 0;
+    max-width:620px;
+    color: #ffffff;
+    font-size:17px;
+}
+.price-deck{
+    display: flex;
+    justify-content: center;
+}
+.price-cards{
+    width: 150px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(2px);
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.benefits{
+    text-align: left;
+    padding-left: 10px;
+}
+.price-cards:hover{
+    transform: translateY(-10px);
+}
